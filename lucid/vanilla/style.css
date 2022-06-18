@@ -1,8 +1,21 @@
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  padding: 0;
 }
+
+#app header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+#app header .swiper {
+  width: 65%;
+  object-fit: contain;
+}
+
+#app header .swiper image {
+  width: 80%;
+}
+
+
