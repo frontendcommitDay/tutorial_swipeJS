@@ -1,0 +1,11 @@
+.sticker {
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  background-color: darkseagreen;
+  flex-shrink: 0;
+}
+
+.sticker.swiper-slide-active {
+  background-color: aqua;
+}
